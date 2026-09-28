@@ -51,7 +51,6 @@ const TransactionsView = (): JSX.Element => {
   ];
 
   if (isLoading) {
-    // ! TODO: use spinner or move to its own component
     return (
       <div className="view-container">
         <h1>Transactions</h1>
